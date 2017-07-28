@@ -1,4 +1,4 @@
-# rs-conrec
+# conrec-rs
 
 **Conrec algorithm in rust**
 
