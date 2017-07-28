@@ -1,0 +1,13 @@
+[package]
+name = "conrec"
+version = "0.1.0"
+authors = ["mthh <matthieu.viry@cnrs.fr>"]
+
+[dependencies]
+serde = {version = "^1.0", optional = true }
+serde_json = {version = "^1.0", optional = true }
+serde_derive = {version = "^1.0", optional = true }
+error-chain = "^0.10"
+
+[features]
+serde_support = ["serde", "serde_derive", "serde_json"]
